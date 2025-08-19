@@ -1,20 +1,22 @@
 nmp<script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import Json from './components/json.vue';
+import Form from './components/Form.vue';
+
+
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125">
 
     <div class="wrapper">
-      <HelloWorld msg="My name is Jingbo Huang" />
-    </div>
+      <Form />
+    </div> 
   </header>
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
